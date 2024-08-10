@@ -64,7 +64,7 @@ button.prev, button.next {
     cursor: pointer;
     border-radius: 50%;
     font-size: 18px;
-    z-index: 10;
+    /* z-index: 10; */
 }
 
 button.prev {

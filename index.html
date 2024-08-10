@@ -1,0 +1,2181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossword</title>
+    <link rel="icon" href="crossword_logo.png" type="image/x-icon"><title>Genre1</title>
+    <link rel="Stylesheet" href="genre1.css">
+    <link rel="stylesheet" href="bestseller.css">
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="adv.css">
+    <link rel="stylesheet" href="rev.css">
+    <link rel="stylesheet" href="footer.css">
+    <!-- huma1.css of index.html renamed to navbar.css in changes.htmlfor trial -->
+    </head>
+<body>
+
+    <!-- Huma's Part -->
+    <div class="fixed min-w-full">
+        <div class="marquee-slideshow-container min-h-8 bg-amber-400 max-w-full">
+            <marquee behavior="scroll" direction="left" scrollamount="5" >
+                <a href="#adv_container" style="text-decoration: none; padding: 0px;">
+                    <div class="marquee-slideshow">
+                        <p> DEAL OF THE DAY | BUY 2 GET 1 FREE | UNDER Rs.499 </p><pre>            </pre>
+                        <p> 30% OFF | END OF SEASON | SUMMER SALE </p><pre>            </pre>
+                        <p> 50% OFF | HALF PRICE SALE </p><pre>            </pre>
+                        <p> 15% OFF | BACK TO SCHOOL SALE </p><pre>            </pre>
+                        <p> 20% OFF | KIDS SPECIAL OFFER </p><pre>            </pre>
+                        <p> 15% OFF | POTTER HEAD SALE </p><pre>            </pre>
+                        <p> DEAL OF THE DAY | BUY 2 GET 1 FREE | UNDER Rs.499 </p><pre>            </pre>
+                        <p> 30% OFF | END OF SEASON | SUMMER SALE </p><pre>            </pre>
+                        <p> 50% OFF | HALF PRICE SALE </p><pre>            </pre>
+                        <p> 15% OFF | BACK TO SCHOOL SALE </p><pre>            </pre>
+                        <p> 20% OFF | KIDS SPECIAL OFFER </p><pre>            </pre>
+                        <p> 15% OFF | POTTER HEAD SALE </p><pre>            </pre>  
+                        <p> DEAL OF THE DAY | BUY 2 GET 1 FREE | UNDER Rs.499 </p><pre>            </pre>
+                        <p> 30% OFF | END OF SEASON | SUMMER SALE </p><pre>            </pre>
+                        <p> 50% OFF | HALF PRICE SALE </p><pre>            </pre>
+                        <p> 15% OFF | BACK TO SCHOOL SALE </p><pre>            </pre>
+                        <p> 20% OFF | KIDS SPECIAL OFFER </p><pre>            </pre>
+                        <p> 15% OFF | POTTER HEAD SALE </p>     
+                    </div>
+                </a>
+                
+            </marquee>
+                
+            
+        </div>
+        <!-- Huma's Part -->
+<div class="min-w-full">
+    <!-- <div class=" " ></div> -->
+    <div class=" min-h-24 backgroundwithimg content-end max-w-full flex align-items-center" >
+        <div style="float: left; padding-left: 2%;">
+            
+            
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#container1">Fiction</a>
+                <a href="#container2">Non-Fiction</a>
+                <a href="#container3">Kids Books</a>
+                <a href="#container4">Young Adult</a>
+                <a href="#container5">Business & Management</a>
+                <a href="#container6">Toys & Games</a>
+                <a href="#container7">Stationery & Gifts</a>
+                <a href="#poojabestseller">Bestsellers</a>
+                <a href="#adv_container" style="color: red;">Offers</a>
+              </div>
+              
+              <div style="position: absolute; right: 0%; padding-right: 2%;">
+                <!-- button -->
+                  <!-- <span onclick="openNav()" ><img style="height: 25px;" src="icons8-menu.svg" class="sidebarimage"></span> -->
+                  <!-- <br> -->
+                   <div style="padding-bottom: 15%;">
+                    <div class="navbar-prompts-icons">
+                        <a style="text-decoration:none;" href="javascript:void(0)" onclick="openSearch()">
+                            <button id="user" style="background-color: rgb(255, 230, 23); height: 33px; border-width: 0px;">
+                                <img src="icons8-search-100.png" height="23px" alt="" >
+                            </button>
+                        </a>
+        
+                        <a style="text-decoration:none;" href="javascript:void(0)" onclick="openUser()">
+                            <button id="user" style="background-color: rgb(255, 230, 23); height: 33px; border-width: 0px;">
+                                <img src="icons8-user-64.png" height="23px" alt="">
+                            </button>
+                        </a>
+                        
+                        <a style="text-decoration:none;" href="javascript:void(0)" onclick="openLike()">
+                            <button id="heart" style="background-color: rgb(255, 230, 23); height: 33px; border-width: 0px;">
+                                <img src="icons8-heart-50.png" height="23px" alt="">
+                            </button>
+                        </a>
+                        
+                        <a style="text-decoration:none;" href="javascript:void(0)" onclick="openCart()">
+                            <button id="cart" style="background-color: rgb(255, 230, 23); height: 33px; border-width: 0px;">
+                                <img src="icons8-cart-50.png" height="23px" alt="">
+                            </button>
+                        </a>
+                    </div>
+                  
+                <br>
+                
+                
+            </div>
+                </div>
+                <div class="navbar-prompts">
+                    <div id="usersearch" class="usersearch" style="display: none; opacity: 0; transition: opacity 0.5s ease; height: 115px; width: 230px; background-color: rgba(131, 131, 131, 0.577); padding: 5%; background-color: whitesmoke; padding: 10%; border-radius: 5%; padding-left: 5%;">
+                        <div style="position: relative; left: 5px;">
+                            <span onclick="closeSearch()">
+                                <img src="icons8-cross-100.png" alt="" height="15px" class="closeTab">
+                            </span>
+                            <br>
+                            <p style="text-align: center;">
+                                Search Here!
+                                <br><br>
+                                <form action="" style="display: flex; align-content: center; ">
+                                <div style="display: flex; ">
+                                <input id="search" type="text" name="" id="" placeholder="  Search here!  " style="width: 163px; height: 22px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-width: 0px; border-color: black;">
+                                <div ><button style="height: 25px; width: 30px; border-top-right-radius: 25%; border-bottom-right-radius: 25%; background-color: rgb(255, 230, 23); border-width: 0px;">
+                                    <img src="icons8-search-100.png" height="20px" style="padding-top: 2%; " alt="">
+                                </button></div>
+                                </div>
+                                </form>
+                                <br><br>
+                                
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div id="usersignin" class="usersignin" style="display: none; opacity: 0; transition: opacity 0.5s ease; height: 115px; width: 230px; padding: 5%; background-color: whitesmoke; padding: 10%; border-radius: 5%; padding-left: 2%;">
+                        <div style="position: relative; left: 5px; padding-right: 5%;">
+                            <span onclick="closeUser()">
+                                <img src="icons8-cross-100.png" alt="" height="15px" class="closeTab">
+                            </span>
+                            <br>
+                            <p style="text-align: center;">
+                                Sign Up or Log In
+                                <br><br>
+                                <a style="background-color: rgb(255, 230, 23); padding: 3%; border-radius: 15%; border-width: 1px; border-color: black; font-weight: 700; padding:9px 20px; cursor:pointer; " class="goBtn">Go</a>
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div id="userlike" class="userlike" style="display: none; opacity: 0; transition: opacity 0.5s ease; height: 115px; width: 230px; padding: 5%; background-color: whitesmoke; padding: 10%; border-radius: 5%; padding-left: 2%;">
+                        <div style="position: relative; left: 5px;">
+                            <span onclick="closeLike()">
+                                <img src="icons8-cross-100.png" alt="" height="15px" class="closeTab">
+                            </span>
+                            <br>
+                            <p style="text-align: center;">
+                                See liked books <img src="icons8-heart-50 (1).png" height="20px" alt="">
+                                <br><br>
+                                <a id="h1" style=" background-color: rgb(255, 230, 23); padding: 3%; border-radius: 15%; border-width: 1px; border-color: black; font-weight: 700; padding:9px 20px; cursor: pointer; " class="goBtn">Go</a>
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div id="usercart" style="display: none; opacity: 0; transition: opacity 0.5s ease; height: 115px;  width: 230px;padding: 5%; background-color: whitesmoke; padding: 10%; border-radius: 5%; padding-left: 2%;">
+                        <div style="position: relative; left: 5px;">
+                            <span onclick="closeCart()">
+                                <img src="icons8-cross-100.png" alt="" height="15px" class="closeTab">
+                            </span>
+                            <br>
+                            <p style="text-align: center;">
+                                Go to My Cart
+                                <br><br>
+                                <a style="background-color: rgb(255, 230, 23); padding: 3%; border-radius: 15%; border-width: 1px; border-color: black; font-weight: 700; padding:9px 20px; cursor: pointer; " class="goBtn">Go</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+              <span onclick="openNav()"><img src="icons8-menu.svg" class="sidebarimage"></span>
+                      
+            
+            <img src="crossword_logo.svg" height="45px" width="160px" alt="">
+                         
+            
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="pt-1 navbar min-h-6 backgroundwithimg text-sm content-end max-w-full flex justify-items-center justify-around">
+      <div id="con1" class=" font-medium hover:font-bold">FICTION</div>
+      <div id="con2" class=" font-medium hover:font-bold">NON-FICTION</div>
+      <div id="con3" class=" font-medium hover:font-bold">KIDS BOOKS</div>
+      <div id="con4" class=" font-medium hover:font-bold">YOUNG ADULT</div>
+      <div id="con5" class=" font-medium hover:font-bold">BUSINESS & MANAGEMENT</div>
+      <div id="con6" class=" font-medium hover:font-bold">TOYS & GAMES</div>
+      <div id="con7" class=" font-medium hover:font-bold">STATIONERY & GIFTS</div>
+      <div id="con8" class=" font-medium hover:font-bold">BESTSELLERS</div>
+      <div id="con9" class=" text-red-600 font-medium hover:font-bold">OFFERS</div>
+      
+    </div>
+    
+
+
+  </div>
+
+
+
+
+      <div class="bookshelf">
+        <div class="grid grid-cols-5 gap-1 block1">
+          
+          <div class="h-24 "></div>
+          <div class="h-24 "></div>
+          <div class="h-24 "></div>
+          <div class="h-24 "></div>
+          <div class="h-24 "></div>
+
+          <div class="h-24 "></div>
+          <a href="#container1" style="text-decoration:none;" ><div class="h-24 text-center font-semibold" id="FIC" style=" color: #fef1fb; transition:transform .45s ease;">FICTION</div></a>
+          <a href="#container2" style="text-decoration:none;"><div class="h-24 text-center font-semibold" id="NON-FIC" style=" color: #fef1fb">NON-FICTION</div></a>
+          <a href="#container4" style="text-decoration:none;"><div class="h-24 text-center font-semibold" id="YA" style=" color: #fef1fb">YOUNG ADULT</div></a>
+          <div class="h-24 "></div>
+
+          <div class="h-24 "></div>
+          <a href="#container3" style="text-decoration:none;"><div class="h-24 text-center font-semibold" id="K" style=" color: #fef1fb">KIDS</div></a>
+          <a href="#container5" style="text-decoration:none;"><div class="h-24 text-center font-semibold text-wrap" id="BM" style=" color: #fef1fb">BUSINESS & <BR> MANAGEMENT</div></a>
+            <a href="#container7" style="text-decoration:none;"><div class="h-24 text-center font-semibold" id="S" style=" color: #fef1fb">STATIONERY</div></a>
+          <div class="h-24 "></div>
+
+          <div class="h-24 "></div>
+          <a href="#container6" style="text-decoration:none;"><div class="h-24 text-center font-semibold" id="TG" style=" color: #fef1fb">TOYS</div></a>
+          <a href="#container7" style="text-decoration:none;"><div class="h-24 text-center font-semibold text-wrap" id="SG" style=" color: #fef1fb">GIFTS</div></a>
+          <a href="#container6" style="text-decoration:none;"><div class="h-24 text-center font-semibold" id="TG" style=" color: #fef1fb">GAMES</div></a>
+          <div class=" h-24 "></div>
+        </div>
+
+        <div class="block2 bg-yellow-400 grid griddef">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+  
+            <div></div>
+          <a href="#container1" style="text-decoration:none;" ><div class="text-center font-semibold" id="FIC" style=" color: #fef1fb; transition:transform .45s ease;">FICTION</div></a>
+          <a href="#container2" style="text-decoration:none;"><div class="text-center font-semibold" id="NON-FIC" style=" color: #fef1fb">NON-FICTION</div></a>
+          <a href="#container4" style="text-decoration:none;"><div class="text-center font-semibold" id="YA" style=" color: #fef1fb">YOUNG ADULT</div></a>
+          <div></div>
+
+          <div></div>
+          <a href="#container3" style="text-decoration:none;"><div class="text-center font-semibold" id="K" style=" color: #fef1fb">KIDS</div></a>
+          <a href="#container5" style="text-decoration:none;"><div class="text-center font-semibold text-wrap" id="BM" style=" color: #fef1fb">BUSINESS & <BR> MANAGEMENT</div></a>
+            <a href="#container7" style="text-decoration:none;"><div class="text-center font-semibold" id="S" style=" color: #fef1fb">STATIONERY</div></a>
+          <div></div>
+
+          <div></div>
+          <a href="#container6" style="text-decoration:none;"><div class="text-center font-semibold" id="TG" style=" color: #fef1fb">TOYS</div></a>
+          <a href="#container7" style="text-decoration:none;"><div class="text-center font-semibold text-wrap" id="SG" style=" color: #fef1fb">GIFTS</div></a>
+          <a href="#container6" style="text-decoration:none;"><div class="text-center font-semibold" id="TG" style=" color: #fef1fb">GAMES</div></a>
+          <div></div>
+  
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+  
+        <div class="block3 grid griddef">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+  
+            <div></div>
+          <a href="#container1" style="text-decoration:none;" ><div class="text-center font-semibold" id="FIC" style=" color: #fef1fb; transition:transform .45s ease;">FICTION</div></a>
+          <a href="#container2" style="text-decoration:none;"><div class="text-center font-semibold" id="NON-FIC" style=" color: #fef1fb">NON-FICTION</div></a>
+          <a href="#container4" style="text-decoration:none;"><div class="text-center font-semibold" id="YA" style=" color: #fef1fb">YOUNG ADULT</div></a>
+          <div></div>
+
+          <div></div>
+          <a href="#container3" style="text-decoration:none;"><div class="text-center font-semibold" id="K" style=" color: #fef1fb">KIDS</div></a>
+          <a href="#container5" style="text-decoration:none;"><div class="text-center font-semibold text-wrap" id="BM" style=" color: #fef1fb">BUSINESS & <BR> MANAGEMENT</div></a>
+            <a href="#container7" style="text-decoration:none;"><div class="text-center font-semibold" id="S" style=" color: #fef1fb">STATIONERY</div></a>
+          <div></div>
+
+          <div></div>
+          <a href="#container6" style="text-decoration:none;"><div class="text-center font-semibold" id="TG" style=" color: #fef1fb">TOYS</div></a>
+          <a href="#container7" style="text-decoration:none;"><div class="text-center font-semibold text-wrap" id="SG" style=" color: #fef1fb">GIFTS</div></a>
+          <a href="#container6" style="text-decoration:none;"><div class="text-center font-semibold" id="TG" style=" color: #fef1fb">GAMES</div></a>
+          <div></div>
+  
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          </div>
+
+        <!-- end of huma's part -->
+
+<!-- Aditi's part (ads) -->
+
+        <div id="adv_container" class="adv_container">
+            <div class="adv_left-content">
+                <div>
+                    <img src="exciting_offers.svg" class="exciting_offers">
+                    <h2>Unmissable Book Deals for Every Reader!</h2>
+                    <br>
+                    <p>Discover amazing discounts on a wide range of books tailored for every reader! From bestsellers and classics to Harry Potter adventures and seasonal specials, we have it all.</p>
+                </div>
+            </div>
+            <div class="adv-slideshow-container">
+                <div class="adv-slideshow">
+                    <img src="buy2get1free.svg" class="adv_slide" alt="Buy 2 Get 1 Free">
+                    <img src="summerSale.svg" class="adv_slide" alt="Summer">
+                    <img src="50off.svg" class="adv_slide" alt="50% Off">
+                    <img src="back2school.svg" class="adv_slide" alt="50% Off">
+                    <img src="kidsSale.svg" class="adv_slide" alt="kids Sale">
+                    <img src="harryPotter.svg" class="adv_slide" alt="Harry Potter">
+                    
+                    
+    
+                </div>
+                <button class="adv_prev" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="adv_next" onclick="plusSlides(1)">&#10095;</button>
+            </div>
+        </div>
+
+        <!-- end of Aditi's part -->
+
+        <!-- pooja's part (bestsellers) -->
+        <div class="container" id="poojabestseller">
+            <div class="boxes nav">
+                <div class="seller">Bestsellers</div>
+                <div class="options">
+                    <a id="ancpoo" href="#books">Books</a>
+                    <a id="ancpoo" href="#games">Toys & Games</a>
+                    <a id="ancpoo" href="#stationary">Stationery & Gifts</a>
+                </div>
+            </div>
+            
+            <div class="sub">
+                <div class="box1 first" id="books">
+                    <div class="carousel-container">
+                        <div class="carousel-slide">
+                            <img id="imgpooja" src="1.jpg" alt="Book Image 1">
+                            <img id="imgpooja" src="2.jpg" alt="Book Image 2">
+                            <img id="imgpooja" src="3.jpg" alt="Book Image 3">
+                            <img id="imgpooja" src="4.jpg" alt="Book image 4">
+                            <img id="imgpooja" src="5.jpg" alt="Book image 5">
+                            <img id="imgpooja" src="6.jpg" alt="Book image 6">
+                            <img id="imgpooja" src="7.jpg" alt="Book image 7">
+                            <img id="imgpooja" src="8.jpg" alt="Book image 8">
+                            <img id="imgpooja" src="9.jpg" alt="Book image 9">
+                            
+                        </div>
+                        <button id="key" class="prev" onclick="moveSlide('books', -1)">&#10094;</button>
+                        <button  id="key"class="next" onclick="moveSlide('books', 1)">&#10095;</button>
+                    </div>
+                </div>
+                <div class="box1 second" id="games">
+                    <div class="carousel-container">
+                        <div class="carousel-slide">
+                            <img id="imgpooja" src="10.jpg" alt="Toy Image 1">
+                            <img id="imgpooja" src="11.jpg" alt="Toy Image 2">
+                            <img id="imgpooja" src="12.jpg" alt="Toy Image 3">
+                            <img id="imgpooja" src="13.jpg" alt="">
+                            <img id="imgpooja" src="14.jpg" alt="">
+                            <img id="imgpooja" src="15.jpg" alt="">
+                            <img id="imgpooja" src="16.jpg" alt="">
+                        </div>
+                        <button id="key" class="prev" onclick="moveSlide('games', -1)">&#10094;</button>
+                        <button id="key" class="next" onclick="moveSlide('games', 1)">&#10095;</button>
+                    </div>
+                </div>
+                <div class="box1 third" id="stationary">
+                    <div class="carousel-container">
+                        <div class="carousel-slide">
+                            <img id="slider-image" src="17.jpg" alt="Stationary Image 1">
+                            <img id="slider-image" src="18.jpg" alt="Stationary Image 2">
+                            <img id="slider-image" src="19.jpg" alt="Stationary Image 3">
+                            <img id="slider-image" src="20.jpg" alt="Stationary Image 4">
+                            <img id="slider-image" src="21.jpg" alt="Stationary Image 5">
+                            <img id="slider-image" src="22.jpg" alt="Stationary Image 6">
+                        </div>
+                        <button id="key" class="prev" onclick="moveSlide('stationary', -1)">&#10094;</button>
+                        <button id="key" class="next" onclick="moveSlide('stationary', 1)">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of pooja's part (bestsellers) -->
+
+
+            
+            <!-- dhriti -->
+
+    <div id="container1">
+    <div class="fiction">
+        <h3 align="center" class="sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl ">Fiction Addiction</h3>
+        <div class="buttons" align="center">
+            <button class="btn1" onclick="FilterObjects('all', 'fiction')">Show All</button>
+            <button class="btn1" onclick="FilterObjects('cm&t', 'fiction')">Crime, Mystery & Thriller</button>
+            <button class="btn1" onclick="FilterObjects('rom', 'fiction')">Romance</button>
+            <button class="btn1" onclick="FilterObjects('mf', 'fiction')">Mythological Fiction</button>
+            <button class="btn1" onclick="FilterObjects('qr', 'fiction')">Quick Reads</button>
+            <button class="btn1" onclick="FilterObjects('cls', 'fiction')">Classics</button>
+        </div>
+
+        <div class="slider">
+            <div class="books">
+
+                <div class="box fiction rom">
+                    <img src="book13.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>FUNNY STORY</b></p>
+                    <p class="author">Emily Henry</p>
+                    <p class="prize">$4.76</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction cm&t">
+                    <img src="book1.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>THE TEACHER</b></p>
+                    <p class="author">Freida McFadden</p>
+                    <p class="prize">$5.98</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction cm&t">
+                    <img src="book2.jpg" class="img" height="270px"><br>
+                    <p class="book-name"><b>THE BLACK ORPHAN</b></p>
+                    <p class="author">S. Hussain Zaidi</p>
+                    <p class="prize">$4.98</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction qr">
+                    <img src="book32.jpeg" class="img" height="250px"><br>
+                    <p class="book-name"><b>UNDERSTANDING<br> ACID - BASE</b></p>
+                    <p class="author">Benjamin Abelow</p>
+                    <p class="prize">$5.38</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction cm&t">
+                    <img src="book4.jpeg" class="img" height="270px"><br>
+                    <p class="book-name"><b>SHE'S NOT SORRY</b></p>
+                    <p class="author">Mary Kubica</p>
+                    <p class="prize">$4.92</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction cm&t">
+                    <img src="book6.jpg" class="img" height="250px"><br>
+                    <p class="book-name"><b>SENTENCED TO<br> MURDER</b></p>
+                    <p class="author">Sue Minix</p>
+                    <p class="prize">$4.72</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction rom">
+                    <img src="book17.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>UNSTEADY</b></p>
+                    <p class="author">Peyton Corinne</p>
+                    <p class="prize">$5.45</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction cm&t">
+                    <img src="book7.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>A CALAMITY OF <br>SOULS</b></p>
+                    <p class="author">David Baldacci</p>
+                    <p class="prize">$6.48</p>
+                    <button class="cart">Add To Bag</button>
+                </div>
+                <div class="box fiction qr">
+                    <img src="book31.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>THE BIRTH LOTTERY <br> AND OTHER SUPRISES</b></p>
+                    <p class="author">Shehan Karunatilaka</p>
+                    <p class="prize">$4.23</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction cm&t">
+                    <img src="book9.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>MR EINSTEIN'S <br>SECRETARY</b></p>
+                    <p class="author">Matthew Reilly</p>
+                    <p class="prize">$4.65</p>
+                    <button class="cart">Add To Bag</button>
+                </div>
+                <div class="box fiction cm&t">
+                    <img src="book10.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>CLOSE TO DEATH</b></p>
+                    <p class="author">Anthony Horowitz</p>
+                    <p class="prize">$4.87</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction rom">
+                    <img src="book11.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>ALL MY KISSES <br>FOR YOU</b></p>
+                    <p class="author">Monica  Murphy</p>
+                    <p class="prize">$5.97</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction cm&t">
+                    <img src="book3.jpeg" class="img" height="270px"><br>
+                    <p class="book-name"><b>DAY ONE</b></p>
+                    <p class="author">Abigail Dean</p>
+                    <p class="prize">$6.99</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction rom">
+                    <img src="book14.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>WILD LOVE</b></p>
+                    <p class="author">Elsie Silver</p>
+                    <p class="prize">$6.21</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction rom">
+                    <img src="book16.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>WHEN LOVE CAME<br>CALLING</b></p>
+                    <p class="author">Preeti Senoy</p>
+                    <p class="prize">$4.99</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction cm&t">
+                    <img src="book5.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>A MATRIMONIAL<br>MURDER</b></p>
+                    <p class="author">Meeti Shah</p>
+                    <p class="prize">$5.09</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction rom">
+                    <img src="book19.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>TAMING 7</b></p>
+                    <p class="author">Chloe Walsh</p>
+                    <p class="prize">$4.62</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction rom">
+                    <img src="book20.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>MAYA'S LAW OF LOVE</b></p>
+                    <p class="author">Alina Khawaja</p>
+                    <p class="prize">$6.07</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction mf">
+                    <img src="book21.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>THE NAGA WARRIORS</b></p>
+                    <p class="author">Akshat Gupta</p>
+                    <p class="prize">$4.73</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction cls">
+                    <img src="book42.webp" class="img" height="230px"><br>
+                    <p class="book-name"><b>THE PENGUIN BOOK OF<br>KOREAN SHORT STORIES</b></p>
+                    <p class="author">Bruce Fulton</p>
+                    <p class="prize">$5.62</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction mf">
+                    <img src="book22.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>RADHA : THE PRINCESS <br>OF BARSANA</b></p>
+                    <p class="author">Neelima Dalmia Adhar</p>
+                    <p class="prize">$4.27</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction rom">
+                    <img src="book12.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>KING OF SLOTH</b></p>
+                    <p class="author">Ana Huang</p>
+                    <p class="prize">$5.78</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction mf">
+                    <img src="book23.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>RIVER PRINCE</b></p>
+                    <p class="author">Kalki</p>
+                    <p class="prize">$4.51</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction cm&t">
+                    <img src="book8.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>DEATH OF A LESSER <br>GOD</b></p>
+                    <p class="author">Vaseem Khan</p>
+                    <p class="prize">$6.08</p>
+                    <button class="cart">Add To Bag</button>
+                </div>
+                <div class="box fiction qr">
+                    <img src="book33.jpg" class="img" height="250px"><br>
+                    <p class="book-name"><b>IN SEARCH OF INDIAN VILLAGE</b></p>
+                    <p class="author">Mamang Dai</p>
+                    <p class="prize">$6.12</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction rom">
+                    <img src="book18.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>MR FIXER UPPER</b></p>
+                    <p class="author">Lucy Score</p>
+                    <p class="prize">$5.91</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction cls">
+                    <img src="book41.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>SELECTED SHORT<br> STORIES</b></p>
+                    <p class="author">Rabindranath Tagore</p>
+                    <p class="prize">$5.76</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box fiction rom">
+                    <img src="book15.png" class="img" height="250px"><br>
+                    <p class="book-name"><b>NEARLY ALL THE MEN <br> IN LAGOS ARE MAD</b></p>
+                    <p class="author">Damilare Kuku</p>
+                    <p class="prize">$4.65</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div id="container2">
+    <div class="non-fiction">
+        <h3 align="center" class="sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl">Non-Fiction Addiction</h3>
+        <div class="buttons" align="center">
+            <button class="btn2" onclick="FilterObjects('all', 'non-fiction')">Show All</button>
+            <button class="btn2" onclick="FilterObjects('si', 'non-fiction')"> Self Improvement</button>
+            <button class="btn2" onclick="FilterObjects('bio', 'non-fiction')"> Biography</button>
+            <button class="btn2" onclick="FilterObjects('ms', 'non-fiction')"> Mindfulness & Spirituality</button>
+            <button class="btn2" onclick="FilterObjects('cap', 'non-fiction')"> Current Affairs & Politics</button>
+        </div>
+
+        <div class="slider">
+            <div class="books">
+    
+                <div class="box non-fiction ms">
+                    <img src="book301.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>WHY WE DIE</b></p>
+                    <p class="author">Venki Ramakrishnan</p>
+                    <p class="prize">$4.52</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction bio">
+                    <img src="book201.jpg" class="img" height="270px"><br>
+                    <p class="book-name"><b>THE INCARCERATIONS</b></p>
+                    <p class="author">Apla Shah</p>
+                    <p class="prize">$5.38</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction cap">
+                    <img src="book401.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>THE SECRET LIBRARY</b></p>
+                    <p class="author">Rhonda Byrne</p>
+                    <p class="prize">$4.31</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction cap">
+                    <img src="book403.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>TWILIGHT PRISONERS</b></p>
+                    <p class="author">Siddhartha Deb</p>
+                    <p class="prize">$4.27</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction si">
+                    <img src="book101.webp" class="img" height="230px"><br>
+                    <p class="book-name"><b>KOKORO: JAPANESE WISDOM FOR A LIFE<BR>WELL LIVED</b></p>
+                    <p class="author">Beth Kempton</p>
+                    <p class="prize">$4.65</p>
+                    <button class="cart">Add To Bag</button>
+                </div>
+                <div class="box non-fiction si">
+                    <img src="book102.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>MIND MAGIC</b></p>
+                    <p class="author">James R. Doty</p>
+                    <p class="prize">$4.87</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction ms">
+                    <img src="book303.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>FEEL GOOD, HEAL GOOD</b></p>
+                    <p class="author">Dr. Mukesh Batra</p>
+                    <p class="prize">$5.12</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction si">
+                    <img src="book103.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>THINGS NO ONE TAUGHT<BR>US ABOUT LOVE</b></p>
+                    <p class="author">Vex King</p>
+                    <p class="prize">$6.07</p>
+                    <button class="cart">Add To Bag</button>
+                    
+                </div>
+                <div class="box non-fiction bio">
+                    <img src="book205.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>THE JANNAYAK<br>KARPOORI THAKUR</b></p>
+                    <p class="author">Aditya Anmol & Santosh Singh</p>
+                    <p class="prize">$5.78</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction si">
+                    <img src="book104.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>SHE'LL NEVER MAKE IT</b></p>
+                    <p class="author">Masoom Minawala</p>
+                    <p class="prize">$4.76</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction cap">
+                    <img src="book402.webp" class="img" height="230px"><br>
+                    <p class="book-name"><b>INDIA'S HISTORIC BATTLES:<br>IMPHAL-KOHIMA 1944</b></p>
+                    <p class="author">Hemant Singh Katoch</p>
+                    <p class="prize">$4.92</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction si">
+                    <img src="book105.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>TEAM: GETTING THINGS DONE WITH OTHERS</b></p>
+                    <p class="author">David Allen & Edward Lamont</p>
+                    <p class="prize">$6.99</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction si">
+                    <img src="book106.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>THE WINNER'S MINDSET</b></p>
+                    <p class="author">Shane Watson</p>
+                    <p class="prize">$6.21</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction bio">
+                    <img src="book203.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>AT THE WHEEL OF RESEARCH</b></p>
+                    <p class="author">Anuradha Mascarenhas</p>
+                    <p class="prize">$5.62</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction si">
+                    <img src="book107.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>GET BETTER AT<br>ANYTHING</b></p>
+                    <p class="author">Scott H. Young</p>
+                    <p class="prize">$4.99</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction cap">
+                    <img src="book404.webp" class="img" height="230px"><br>
+                    <p class="book-name"><b>CHAMBERS BOOK OF INDIAN ELECTION FACTS</b></p>
+                    <p class="author">Kingshuk Chatterjee &<br>Surbek Biswas</p>
+                    <p class="prize">$5.45</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction si">
+                    <img src="book108.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>UNDER THE INFLUENCE</b></p>
+                    <p class="author">Malini Agrawal</p>
+                    <p class="prize">$5.09</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction ms">
+                    <img src="book305.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>THE POWER OF<br>RUDRAKSHA</b></p>
+                    <p class="author">Kamal Narayan Seetha</p>
+                    <p class="prize">$4.76</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction si">
+                    <img src="book109.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>THE ONLY CONSTANT</b></p>
+                    <p class="author">Najwa Zebian</p>
+                    <p class="prize">$6.62</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction si">
+                    <img src="book110.jpg" class="img" height="250px"><br>
+                    <p class="book-name"><b>DREAMS TO REALITY<br>IN 5 STEPS</b></p>
+                    <p class="author">Deepak Bajaj</p>
+                    <p class="prize">$4.07</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction bio">
+                    <img src="book202.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>THE MAN WHO BUILT TOMORROW</b></p>
+                    <p class="author">A. M. Naik</p>
+                    <p class="prize">$4.73</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction cap">
+                    <img src="book406.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>MODI 3.0 - BIGGER,<br>HIGHER, STRONGER</b></p>
+                    <p class="author">Pradeep Bhandari</p>
+                    <p class="prize">$4.23</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction bio">
+                    <img src="book204.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>THE RISE OF ASIAN PAINTS</b></p>
+                    <p class="author">Anupam Gupta</p>
+                    <p class="prize">$4.27</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction ms">
+                    <img src="book302.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>THE AUTOBIOGRAPHY<br>OF GOD</b></p>
+                    <p class="author">Lenaa Kumar</p>
+                    <p class="prize">$6.08</p>
+                    <button class="cart">Add To Bag</button>
+                </div>
+                <div class="box non-fiction bio">
+                    <img src="book206.jpg" class="img" height="270px"><br>
+                    <p class="book-name"><b>THE HORMONE SHIFT</b></p>
+                    <p class="author">Dr. Tasneem Bhatia</p>
+                    <p class="prize">$4.51</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction ms">
+                    <img src="book304.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>THE SCIENCE OF HAPPINESS</b></p>
+                    <p class="author">Bruce Hood</p>
+                    <p class="prize">$5.91</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box non-fiction cap">
+                    <img src="book405.jpg" class="img" height="270px"><br>
+                    <p class="book-name"><b>GUJARAT UNDER MODI</b></p>
+                    <p class="author">Christophe Jaffrelot</p>
+                    <p class="prize">$6.48</p>
+                    <button class="cart">Add To Bag</button>
+                </div>
+                <div class="box non-fiction ms">
+                    <img src="book306.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>THE PSYCHOLOGY OF SECRETS</b></p>
+                    <p class="author">Andrew Gold</p>
+                    <p class="prize">$4.65</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="container3">
+    <div class="kids-section">
+        <h3 align="center" class="sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl">Kids Section</h3>
+        <div class="buttons" align="center">
+            <button class="btn3" onclick="FilterObjects('all', 'kids-section')">Show All</button>
+            <button class="btn3" onclick="FilterObjects('pb', 'kids-section')">Picture Books</button>
+            <button class="btn3" onclick="FilterObjects('el', 'kids-section')">Early Learning</button>
+            <button class="btn3" onclick="FilterObjects('cm', 'kids-section')">Child Mythology</button>
+            <button class="btn3" onclick="FilterObjects('cab', 'kids-section')">Colouring & Art Books</button>
+        </div>
+    
+        <div class="slider">
+            <div class="books">
+    
+                <div class="box kids-section cm">
+                    <img src="book3005.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>HOW TO CATCH A STAR</b></p>
+                    <p class="author">Oliver Jeffers</p>
+                    <p class="prize">$4.27</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section pb">
+                    <img src="book1002.webp" class="img" height="230px"><br>
+                    <p class="book-name"><b>AXEL SCHEFFLER'S TREASURY OF<br>FAIRY TALES</b></p>
+                    <p class="author">Axel Scheffler</p>
+                    <p class="prize">$5.38</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section pb">
+                    <img src="book1006.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>TODAY YOU CHANGES<br>THE WORLD</b></p>
+                    <p class="author">Maggie Hutching & Evie Barrow</p>
+                    <p class="prize">$4.87</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section cm">
+                    <img src="book3003.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>MAHABHARATA<br>STORIES</b></p>
+                    <p class="author">NA</p>
+                    <p class="prize">$4.73</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section pb">
+                    <img src="book1010.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>THE GRUFFALO: 25TH ANNIVERSARY EDITION</b></p>
+                    <p class="author">Julia Donaldson & Axel Scheffler</p>
+                    <p class="prize">$4.76</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section el">
+                    <img src="book2001.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>FIRST WORDS</b></p>
+                    <p class="author">Make Believe Ideas</p>
+                    <p class="prize">$4.92</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section pb">
+                    <img src="book1004.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>PEPPA PIG: PEPPA'S FIRST DAY AT SCHOOL</b></p>
+                    <p class="author">Peepa Pig</p>
+                    <p class="prize">$4.27</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section el">
+                    <img src="book2002.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>DEAR ZOO LITTLE LIBRARY</b></p>
+                    <p class="author">Rod Cambell</p>
+                    <p class="prize">$6.99</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section pb">
+                    <img src="book1001.webp" class="img" height="230px"><br>
+                    <p class="book-name"><b>THE VERY HUNGRY CATERPILLAR EATS DINNER</b></p>
+                    <p class="author">Eric Carle</p>
+                    <p class="prize">$4.52</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section el">
+                    <img src="book2004.webp" class="img" height="230px"><br>
+                    <p class="book-name"><b>OFFICIAL COCOMELON PEEKABOO PLAYTIME</b></p>
+                    <p class="author">Cocomelon</p>
+                    <p class="prize">$5.62</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section pb">
+                    <img src="book1005.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>PEPPA PIG: PEPPA'S SEASONS STICKER BOOK</b></p>
+                    <p class="author">Peppa Pig</p>
+                    <p class="prize">$4.65</p>
+                    <button class="cart">Add To Bag</button>
+                </div>
+                <div class="box kids-section el">
+                    <img src="book2006.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>BABY TOUCH: HUGS AND KISSES</b></p>
+                    <p class="author">Ladybird</p>
+                    <p class="prize">$5.45</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section pb">
+                    <img src="book1007.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>BLUEY: SLEEPYTIME</b></p>
+                    <p class="author">Bluey</p>
+                    <p class="prize">$5.12</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section el">
+                    <img src="book2007.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>MY COUNTRY MY GOVERNMENT</b></p>
+                    <p class="author">Rohini Oomman</p>
+                    <p class="prize">$5.09</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section pb">
+                    <img src="book1009.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>BLUEY: WHERE'S BLUEY?</b></p>
+                    <p class="author">Bluey</p>
+                    <p class="prize">$5.78</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section el">
+                    <img src="book2008.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>MY FIRST JOURNEY AROUND PLANET EARTH</b></p>
+                    <p class="author">Campbell Books</p>
+                    <p class="prize">$4.76</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section cm">
+                    <img src="book3001.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>HUNUMAN</b></p>
+                    <p class="author">Kamlesh Mohindra</p>
+                    <p class="prize">$6.62</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section pb">
+                    <img src="book1008.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>BLUEY: WHAT GAMES SHOULD WE PLAY?</b></p>
+                    <p class="author">Bluey</p>
+                    <p class="prize">$6.07</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section cm">
+                    <img src="book3002.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>FESTIVAL STOIRES: THROUGH THE YEAR</b></p>
+                    <p class="author">Rachna Chhabria</p>
+                    <p class="prize">$4.07</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section pb">
+                    <img src="book1003.jpg" class="img" height="230px"><br>
+                    <p class="book-name"><b>THE ADVENTURES OF<br>ED-A-MAMMA: ED FINDS A HOME</b></p>
+                    <p class="author">NA</p>
+                    <p class="prize">$4.31</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section cm">
+                    <img src="book3004.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>ABE OF HINDUISM<br>FOR KIDS</b></p>
+                    <p class="author">Devdutt Pattanaik</p>
+                    <p class="prize">$4.23</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box kids-section cab">
+                    <img src="book4001.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>MY PRETTY PINK<br>ACTIVITY BOOK</b></p>
+                    <p class="author">Sophie Collongwood</p>
+                    <p class="prize">$6.08</p>
+                    <button class="cart">Add To Bag</button>
+
+                </div>
+                <div class="box kids-section el">
+                    <img src="book2005.webp" class="img" height="230px"><br>
+                    <p class="book-name"><b>FROG'S DAY OUT: A LIFT-THE-FLIP STORY</b></p>
+                    <p class="author">Julia Donaldson</p>
+                    <p class="prize">$4.99</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="container4">
+    <div class="young-adult">
+        <h3 align="center" class="sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl">Young Adult</h3>
+        <div class="buttons" align="center">
+            <button class="btn4" onclick="FilterObjects('all', 'young-adult')">Show All</button>
+            <button class="btn4" onclick="FilterObjects('yaf', 'young-adult')">Young Adult Fantasy</button>
+            <button class="btn4" onclick="FilterObjects('yagf', 'young-adult')">Young Adult Fiction</button>
+            <button class="btn4" onclick="FilterObjects('yar', 'young-adult')">Young Adult Romance</button>
+            <button class="btn4" onclick="FilterObjects('yanf', 'young-adult')">Young Adult Non Fiction</button>
+        </div>
+    
+        <div class="slider">
+            <div class="books">
+    
+                <div class="box young-adult yar">
+                    <img src="book132.jpg" class="img" height="270px"><br>
+                    <p class="book-name"><b>I WISH YOU WOULD</b></p>
+                    <p class="author">Eva Des Lauriers</p>
+                    <p class="prize">$5.62</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box young-adult yaf">
+                    <img src="book112.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>THE ENCANTO'S<br>DAUGHTER</b></p>
+                    <p class="author">Melissa de la Cruz</p>
+                    <p class="prize">$5.38</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box young-adult yanf">
+                    <img src="book141.jpg" class="img" height="250px"><br>
+                    <p class="book-name"><b>GRACE NOTES: POEMS ABOUT FAMILIES</b></p>
+                    <p class="author">Naomi Shihab Nye</p>
+                    <p class="prize">$5.45</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box young-adult yaf">
+                    <img src="book115.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>TO GAZE UPON WICKED GODS</b></p>
+                    <p class="author">Molly X. Chang</p>
+                    <p class="prize">$4.76</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box young-adult yagf">
+                    <img src="book121.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>SONG OF FREEDOM,<br>SONG OF DREAMS</b></p>
+                    <p class="author">Shari Green</p>
+                    <p class="prize">$4.92</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box young-adult yaf">
+                    <img src="book113.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>POWERFUL</b></p>
+                    <p class="author">Lauren Roberts</p>
+                    <p class="prize">$4.87</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box young-adult yagf">
+                    <img src="book122.jpg" class="img" height="250px"><br>
+                    <p class="book-name"><b>FROM LITTLE TOKYO,<br>WITH LOVE</b></p>
+                    <p class="author">Sarah Kuhn</p>
+                    <p class="prize">$4.27</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box young-adult yaf">
+                    <img src="book114.jpg" class="img" height="250px"><br>
+                    <p class="book-name"><b>DESTORY THE DAY (DEFY THE NIGHT)</b></p>
+                    <p class="author">Brigid Kemmerer</p>
+                    <p class="prize">$4.73</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box young-adult yagf">
+                    <img src="book123.jpg" class="img" height="250px"><br>
+                    <p class="book-name"><b>THE BODY IN THE SWIMMING POOL</b></p>
+                    <p class="author">Shabnam Minwalla</p>
+                    <p class="prize">$6.99</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box young-adult yar">
+                    <img src="book131.jpg" class="img" height="270px"><br>
+                    <p class="book-name"><b>TWELFTH KNIGHT</b></p>
+                    <p class="author">Alexene Farol Follmuth</p>
+                    <p class="prize">$4.52</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box young-adult yaf">
+                    <img src="book111.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>SNOW & POISON</b></p>
+                    <p class="author">Melissa de la Cruz</p>
+                    <p class="prize">$4.27</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box young-adult yar">
+                    <img src="book133.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>THE BOY NEXT DOOR</b></p>
+                    <p class="author">Jennt Ireland</p>
+                    <p class="prize">$4.65</p>
+                    <button class="cart">Add To Bag</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+
+    <div id="container5">
+    <div class="business">
+        <h3 align="center" class="sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl">Business & Management</h3>
+        <div class="buttons" align="center">
+            <button class="btn5" onclick="FilterObjects('all', 'business')">Show All</button>
+            <button class="btn5" onclick="FilterObjects('fin', 'business')">Finance</button>
+            <button class="btn5" onclick="FilterObjects('e&m', 'business')">Entrepreneurship & Management</button>
+            <button class="btn5" onclick="FilterObjects('eco', 'business')">Economics</button>
+        </div>
+    
+        <div class="slider">
+            <div class="books">
+    
+                <div class="box business e&m">
+                    <img src="book223.jpg" class="img" height="250px"><br>
+                    <p class="book-name"><b>THE 16 UNDENIABLE LAWS OF COMMUNICATION</b></p>
+                    <p class="author">John C. Maxwell</p>
+                    <p class="prize">$4.52</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box business fin">
+                    <img src="book211.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>BUFFETT'S 2 STEP'S STOCK MARKET STRATEGY</b></p>
+                    <p class="author">Danial Jiwani</p>
+                    <p class="prize">$4.52</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box business fin">
+                    <img src="book213.webp" class="img" height="230px"><br>
+                    <p class="book-name"><b>LET'S TALK LEGACY</b></p>
+                    <p class="author">Monika Halan</p>
+                    <p class="prize">$5.38</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box business eco">
+                    <img src="book231.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>A BRIEF HISTORY OF EQUALITY</b></p>
+                    <p class="author">Thomas Piketty</p>
+                    <p class="prize">$4.27</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box business fin">
+                    <img src="book214.webp" class="img" height="250px"><br>
+                    <p class="book-name"><b>THE 80-20 MONEY MAKEOVER</b></p>
+                    <p class="author">Arun Kumar</p>
+                    <p class="prize">$5.45</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box business fin">
+                    <img src="book216.jpg" class="img" height="250px"><br>
+                    <p class="book-name"><b>21ST CENTURY WEALTH</b></p>
+                    <p class="author">Rachel Podnos O'Leary</p>
+                    <p class="prize">$4.92</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box business e&m">
+                    <img src="book222.jpg" class="img" height="270px"><br>
+                    <p class="book-name"><b>BATTLE FOR THE BIRD</b></p>
+                    <p class="author">Kurt Wagner</p>
+                    <p class="prize">$6.99</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box business fin">
+                    <img src="book217.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>DAT TRADING ATTENTION</b></p>
+                    <p class="author">Gary Vaynerchuk</p>
+                    <p class="prize">$4.87</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box business fin">
+                    <img src="book218.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>TALK TO ME</b></p>
+                    <p class="author">Jason Tartick</p>
+                    <p class="prize">$4.27</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box business e&m">
+                    <img src="book221.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>CODE-DENENDENT</b></p>
+                    <p class="author">Madhumita Murgia</p>
+                    <p class="prize">$4.73</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box business fin">
+                    <img src="book212.webp" class="img" height="270px"><br>
+                    <p class="book-name"><b>CRYPTO THE DISRUPTOR</b></p>
+                    <p class="author">Mukesh Jindal</p>
+                    <p class="prize">$5.62</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+                <div class="box business fin">
+                    <img src="book215.jpg" class="img" height="270px"><br>
+                    <p class="book-name"><b>DIGITAL FORTUNES</b></p>
+                    <p class="author">Smarak Swain</p>
+                    <p class="prize">$4.76</p>
+                    <button class="cart">Add To Bag</button>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="container6">
+        <div class="toys">
+            <h3 align="center" class="sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl">Toys & Games</h3>
+            <div class="buttons" align="center">
+                <button class="btn6" onclick="FilterObjects('all', 'toys')">Show All</button>
+                <button class="btn6" onclick="FilterObjects('tys', 'toys')">Toys</button>
+                <button class="btn6" onclick="FilterObjects('gms', 'toys')">Games</button>
+                </div>
+    
+            <div class="slider">
+                <div class="books">
+    
+                    <div class="box toys gms">
+                        <img src="game10.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>SKILLMATICS BOREDOM BUSTER</b></p>
+                        <p class="prize">$2.76</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys tys">
+                        <img src="toy1.webp" class="img" height="270px" align="top"><br>
+                        <p class="book-name"><b>REMOTE CONTROL 1:24 JEEP WRANGLER JI-79500</b></p>
+                        <p class="prize">$35.96</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys gms">
+                        <img src="game9.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>FUNSKOOL SNAKES & LADDERS</b></p>
+                        <p class="prize">$1.62</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys tys">
+                        <img src="toy3.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>MARVEL CLASSIC HULK TOY 9.5-INCH SCALE</b></p>
+                        <p class="prize">$6.98</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys gms">
+                        <img src="game8.jpg" class="img" height="290px"><br>
+                        <p class="book-name"><b>POKER SET</b></p>
+                        <p class="prize">$34.98</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys tys">
+                        <img src="toy4.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>MIRADA 25CM LOPORAD SOFT TOY</b></p>
+                        <p class="prize">$5.38</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys gms">
+                        <img src="game5.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>SAFARI AR FLASHCARDS BY PLAYSHIFU - 60 ANIMALS</b></p>
+                        <p class="prize">$7.39</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys tys">
+                        <img src="toy5.jpg" class="img" height="270px"><br>
+                        <p class="book-name"><b>FIRE ENGINE (LARGE)-M38-B0966</b></p>
+                        <p class="prize">$32.38</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys gms">
+                        <img src="game1.webp" class="img" height="250px"><br>
+                        <p class="book-name"><b>HASBRO GAMING JENGA TUBE PACK</b></p>
+                        <p class="prize">$25.67</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys tys">
+                        <img src="toy6.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>LEGO FRIENDS DOG RESCUE BIKE 41738 BUILDING</b></p>
+                        <p class="prize">$25.38</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys gms">
+                        <img src="game2.webp" class="img" height="290px"><br>
+                        <p class="book-name"><b>SCOTLAND YARD 4500100</b></p>
+                        <p class="prize">$6.43</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys tys">
+                        <img src="toy7.webp" class="img" height="290px"><br>
+                        <p class="book-name"><b>MAKE YOUR OWN CASTLE</b></p>
+                        <p class="prize">$5.72</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys gms">
+                        <img src="game6.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>COPAG TEXAS HOLD'EM BLACK</b></p>
+                        <p class="prize">$3.16</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys tys">
+                        <img src="toy8.webp" class="img" height="290px"><br>
+                        <p class="book-name"><b>T1 CAR-M38-B0707</b></p>
+                        <p class="prize">$17.31</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys gms">
+                        <img src="game7.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>FUNSKOOL TRAVEL CHINESE CHECKERS</b></p>
+                        <p class="prize">$1.47</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys tys">
+                        <img src="toy9.webp" class="img" height="290px"><br>
+                        <p class="book-name"><b>LOG TRAILER-M38-B0778</b></p>
+                        <p class="prize">$18.47</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys gms">
+                        <img src="game4.webp" class="img" height="290px"><br>
+                        <p class="book-name"><b>OTHELLO (138396110)</b></p>
+                        <p class="prize">$4.96</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys tys">
+                        <img src="toy10.webp" class="img" height="230px"><br>
+                        <p class="book-name"><b>SLUBAN WW2 - SD.KFZ.251 HALF TRACK BUILDING BLOCKS</b></p>
+                        <p class="prize">$37.18</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys gms">
+                        <img src="game3.webp" class="img" height="290px"><br>
+                        <p class="book-name"><b>UNO FLIP CARD</b></p>
+                        <p class="prize">$1.73</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box toys tys">
+                        <img src="toy2.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>AUTO RACING R/C (1:14) - POLICE-08599P</b></p>
+                        <p class="prize">$35.88</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    <div id="container7">
+        <div class="gifts">
+            <h3 align="center" class="sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl">Stationery & Gifts</h3>
+            <div class="buttons" align="center">
+                <button class="btn7" onclick="FilterObjects('all', 'gifts')">Show All</button>
+                <button class="btn7" onclick="FilterObjects('stn', 'gifts')">Stationery</button>
+                <button class="btn7" onclick="FilterObjects('gft', 'gifts')">Gifts</button>
+                </div>
+    
+            <div class="slider">
+                <div class="books">
+    
+                    <div class="box gifts stn">
+                        <img src="stn1.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>MILAN-CAPSULE SLIM SILVER MECHANIC-185028920</b></p>
+                        <p class="prize">$1.72</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts gft">
+                        <img src="gf10.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>STAINLESS STEEL CUP - MISS BUTTER-MF-RB-05284</b></p>
+                        <p class="prize">$7.38</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts stn">
+                        <img src="stn2.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>MILAN-ERASER+SHARPENER CAPSULE-4701116</b></p>
+                        <p class="prize">$2.16</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts gft">
+                        <img src="gf9.webp" class="img" height="250px"><br>
+                        <p class="book-name"><b>SMILY KIDDOS POP OUT PENCIL BOX DINO THEME - BLUE-SK16001728</b></p>
+                        <p class="prize">$6.60</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts stn">
+                        <img src="stn3.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>MILAN BLUE INK P1 PENS CAMALEON SWIMS ASSORTED</b></p>
+                        <p class="prize">$1.98</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts gft">
+                        <img src="gf7.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>NOTE PALS STICKY TABS - SUGAR JOY</b></p>
+                        <p class="prize">$2.59</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts stn">
+                        <img src="stn4.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>MILAN COMPACT SUNSET PEN, BLUE INK</b></p>
+                        <p class="prize">$1.76</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts gft">
+                        <img src="gf1.webp" class="img" height="250px"><br>
+                        <p class="book-name"><b>FACTOR NOTES-NOTEBOOK :100 GSM A5 SPIRAL BOUND 144 PAGES - CURIOUS CAT</b></p>
+                        <p class="prize">$3.12</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts stn">
+                        <img src="stn5.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>FLAIR YOLO BALL PEN (50 PCS TUMBLER)</b></p>
+                        <p class="prize">$6.83</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts gft">
+                        <img src="gf3.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>LIFE OF YOUR DREAMS - ANNUAL UNDATED PLANNER</b></p>
+                        <p class="prize">$26.39</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts stn">
+                        <img src="stn6.webp" class="img" height="250px"><br>
+                        <p class="book-name"><b>FACTOR NOTE 300GSM A3 WATERCOLOOUR SHEET 5 PAGES</b></p>
+                        <p class="prize">$2.47</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts gft">
+                        <img src="gf6.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>LEGAMI-SCENTED ERASER - JELLY FRIENDS - UNICORN</b></p>
+                        <p class="prize">$2.19</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts stn">
+                        <img src="stn7.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>RISE & SHINE - ANNUAL UNDATED PLANNER</b></p>
+                        <p class="prize">$22.89</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts gft">
+                        <img src="gf5.webp" class="img" height="290px"><br>
+                        <p class="book-name"><b>HAPPY CHECKLIST</b></p>
+                        <p class="prize">$4.15</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts stn">
+                        <img src="stn8.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>BOOKMARK ORNAMENT SARASWATI</b></p>
+                        <p class="prize">$4.93</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts gft">
+                        <img src="gf4.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>SHARPIE S. GEL PEN 0.5MM-PACK OF 4</b></p>
+                        <p class="prize">$5.62</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts stn">
+                        <img src="stn9.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>LEGAMI-ERASABLE GEL PEN - PIGGY</b></p>
+                        <p class="prize">$2.94</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts gft">
+                        <img src="gf8.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>LEGAMI-ERASABLE GEL PEN - LLAMA</b></p>
+                        <p class="prize">$2.72</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts stn">
+                        <img src="stn10.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>LEGAMI-ERASABLE GEL PEN - TEDDY BEAR</b></p>
+                        <p class="prize">$2.72</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                    <div class="box gifts gft">
+                        <img src="gf2.webp" class="img" height="270px"><br>
+                        <p class="book-name"><b>PARKER JOTTER STANDARD CT BALL PEN (BLACK)</b></p>
+                        <p class="prize">$3.87</p>
+                        <button class="cart">Add To Bag</button>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="author">
+            <img src="author.svg" alt="Featured Authors">
+        </div>
+    <!-- aditi's part: reviews -->
+    <div class="rev_container">
+        <div class="rev_left-content">
+            <div>
+                <img src="happy_readers.svg" class="happy_readers">
+                <h2>Celebrity Book Buzz: Reviews by the Stars!</h2>
+                <br>
+                <p>Discover what your favorite celebrities are reading
+                and loving! Dive into their book reviews and find your 
+                next literary adventure.</p>
+            </div>
+        </div>
+        <div class="rev-slideshow-container">
+            <marquee class="rev-marquee" behavior="scroll" direction="left" scrollamount="8" >
+                <div class="rev-slideshow">
+                    <img src="twinkle.svg" alt="Gita">
+                    <img src="emma2.svg" alt="Emma Watson Review">
+                    <img src="srk2.svg" alt="Srk">  
+                    <img src="shashi2.svg" alt="Shashi Tharoor">
+                    <img src="twinkle.svg" alt="Gita">
+                    <img src="emma2.svg" alt="Emma Watson Review">
+                    <img src="srk2.svg" alt="Srk">  
+                    <img src="shashi2.svg" alt="Shashi Tharoor">
+                    <img src="twinkle.svg" alt="Gita">
+                    <img src="emma2.svg" alt="Emma Watson Review">
+                    <img src="srk2.svg" alt="Srk">  
+                    <img src="shashi2.svg" alt="Shashi Tharoor">
+                    <img src="twinkle.svg" alt="Gita">
+                    <img src="emma2.svg" alt="Emma Watson Review">
+                    <img src="srk2.svg" alt="Srk">  
+                    <img src="shashi2.svg" alt="Shashi Tharoor">               
+                </div>
+            </marquee>
+            
+        </div>
+        <div class="rev_right-content">
+            <div>
+                <img src="happy_readers.svg" class="happy_readers">
+                <h2>Celebrity Book Buzz: Reviews by the Stars!</h2>
+                <br>
+                <p>Discover what your favorite celebrities are reading
+                and loving! Dive into their book reviews and find your 
+                next literary adventure.</p>
+            </div>
+        </div>
+        
+    </div>
+    <!-- aditi's part ends -->
+<!--  footer  -->
+
+    <footer>
+        <div class="footer">
+            <div class="content">
+            <img src="crossword_logo.webp" class="stuborn"><br>
+            <p>Crossword Bookstores draws book lovers of all ages into a community where they can discover great books, engage with booklovers and meet their favourite literary personalities.</p><br>
+            <hr><br>
+            <h4>Stay In The Know</h4><br>
+            <p>Subscribe to our newsletter and stay updated on latest offers, discounts and events near you.</p><br>
+            <div class="give">
+            <input type="text" placeholder="Email id" class="emailid">
+            <button class="press">Go!</button>
+            </div><br>
+            <h4><b>Follow Us</b></h4><br>
+            <div class="icons">
+            <a href="https://www.facebook.com/Crosswordbookstores"><img src="facebook.png" class="facebook" height="30px" style="padding-right: 5px;"></a>
+            <a href="https://www.instagram.com/crosswordbookstores/"><img src="instagram.png" class="facebook" height="30px" style="padding-right: 5px;"></a>
+            <a href="https://x.com/crossword_book?mx=2"><img src="twitterlogo.png" class="facebook" height="30px" style="padding-right: 5px;"></a>
+                    </div>     
+                </div>
+          </div>
+    </footer>
+    
+    <style>
+        
+        @media only screen and (max-width:1150px)
+        {
+            .navbar
+            {
+                font-size: 12px ;
+            }
+        }
+
+        @media only screen and (min-width:850px)
+        {
+        
+          .block1
+          {
+            /* font-family: myFont; */
+            background-image: url(bookscasepreview4.png);
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+  
+          }
+          .block3,.block2
+          {
+            display: none;
+          }
+  
+          .grid-cols-5 {
+            grid-template-columns: 0.3fr 1.2fr 1.2fr 1.2fr 0.3fr;
+            grid-template-rows: 2.4fr 1.2fr 1.2fr 1fr 2fr;
+          }
+          .logosizehn
+            {
+                height: 30px;
+                width: 30px;
+            }
+        }
+  
+        @media only screen and (max-width: 850px)
+        {
+        
+
+          .block1
+          {
+            display: none;
+          }
+          .navbar
+          {
+            display: none;
+          }
+          
+  
+          .block2
+          {
+            /* font-family: myFont; */
+             width: 100%;
+             height: 520px; 
+             background-image: url(bookscasepreview4.png);
+             background-size:cover;
+             background-repeat: no-repeat;
+          }
+          .block3
+          {
+            display: none;
+          }
+          .griddef
+          {
+            grid-template-columns: 0.3fr 1.2fr 1.2fr 1.2fr 0.3fr;
+            grid-template-rows: 2fr 1fr 1fr 1fr 1.5fr ;
+            height: 520px;
+            gap: 0.25rem /* 4px */;
+          }
+          .logosizehn
+            {
+                height: 30px;
+                width: 30px;
+            }
+        }
+  
+        @media only screen and (max-width: 750px)
+        {
+          .block1
+          {
+            display: none;
+          }
+          .block2
+          {
+            /* font-family: myFont; */
+             width: 100%;
+             height: 450px; 
+             background-image: url(bookscasepreview4.png);
+             background-size:cover;
+             background-repeat: no-repeat;
+          }
+          .block3
+          {
+            display: none;
+          }
+          .griddef
+          {
+            grid-template-columns: 0.3fr 1.2fr 1.2fr 1.2fr 0.3fr;
+            grid-template-rows: 2fr 1fr 1fr 1fr 1.5fr ;
+            height: 450px;
+            gap: 0.25rem /* 4px */;
+          }
+        }
+  
+        @media only screen and (max-width: 640px)
+        {
+          .block1
+          {
+            display: none;
+          }
+  
+          .block2
+          {
+             width: 100%;
+             height: 375px; 
+             background-image: url(bookscasepreview4.png);
+             background-size:cover;
+             background-repeat: no-repeat;
+          }
+          .block3
+          {
+            display: none;
+          }
+          .griddef
+          {
+            grid-template-columns: 0.3fr 1.2fr 1.2fr 1.2fr 0.3fr;
+            grid-template-rows: 2fr 1fr 1fr 1fr 1.5fr ;
+            height: 375px;
+            gap: 0.25rem /* 4px */;
+          }
+          .logosizehn
+            {
+                height: 30px;
+                width: 30px;
+            }
+        }
+  
+  
+        @media (max-width: 550px) 
+        { 
+            .menu
+            {
+                padding-left: 5px;
+            }
+            .logo
+            {
+                padding-left: 400px;
+            }
+            
+            .block3
+            {
+                /* font-family: myFont; */
+              background-color: yellow;
+              height: 320px;
+              width: 100%;
+              background-image: url(bookscasepreview4.png);
+              background-size: cover;
+              background-repeat: no-repeat;
+            }
+            /* .block2,.block1
+            {
+              display: none;
+            } */
+  
+            .griddef
+            {
+              grid-template-columns: 0.3fr 1.2fr 1.2fr 1.2fr 0.3fr;
+              grid-template-rows: 2fr 1fr 1fr 1fr 1.5fr ;
+              height: 320px;
+              gap: 0.25rem /* 4px */;
+            }
+  
+            #FIC:hover
+            {
+                /* text-emphasis: circle; */
+                font-weight:900;
+                padding-top: 10%;
+                font-size: 15px;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                text-decoration-style: wavy;
+                text-decoration-color: #B185A7;
+                text-underline-offset: 2px;
+                animation: bounce 1s infinite;
+            }
+            #NON-FIC:hover
+            {
+                /* text-emphasis: circle; */
+                font-weight:900;
+                padding-top: 10%;
+                font-size: 15px;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                text-decoration-style: wavy;
+                text-decoration-color: #49416D;
+                text-underline-offset: 2px;
+                animation: bounce 1s infinite;
+            }
+            #YA:hover
+            {
+                /* text-emphasis: circle; */
+                font-weight:900;
+                padding-top: 10%;
+                font-size: 15px;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                text-decoration-style: wavy;
+                text-decoration-color: #E2D6AA;
+                text-underline-offset: 2px;
+                animation: bounce 1s infinite;
+            }
+            #K:hover
+            {
+                /* text-emphasis: circle; */
+                font-weight:900;
+                padding-top: 10%;
+                font-size: 15px;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                text-decoration-style: wavy;
+                text-decoration-color: #9FBADD;
+                text-underline-offset: 2px;
+                animation: bounce 1s infinite;
+            }
+            #BM:hover
+            {
+                /* text-emphasis: circle; */
+                font-weight:900;
+                padding-top: 7%;
+                font-size: 15px;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                text-decoration-style: wavy;
+                text-decoration-color: #6E9075;
+                text-underline-offset: 2px;
+                animation: bounce 1s infinite;
+            }
+  
+            #S:hover
+            {
+                /* text-emphasis: circle; */
+                font-weight:900;
+                padding-top: 10%;
+                font-size: 15px;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                text-decoration-style: wavy;
+                text-decoration-color: #C8553D;
+                text-underline-offset: 2px;
+                animation: bounce 1s infinite;
+            }
+  
+            #SG:hover
+            {
+                /* text-emphasis: circle; */
+                font-weight:900;
+                padding-top: 10%;
+                font-size: 15px;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                text-decoration-style: wavy;
+                text-decoration-color: #C8553D;
+                text-underline-offset: 2px;
+                animation: bounce 1s infinite;
+            }
+  
+            #TG:hover
+            {
+                /* text-emphasis: circle; */
+                font-weight:900;
+                padding-top: 7%;
+                font-size: 15px;
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                text-decoration-style: wavy;
+                text-decoration-color: #1D5370;
+                text-underline-offset: 2px;
+                animation: bounce 1s infinite;
+            }
+            .logosizehn
+            {
+                height: 30px;
+                width: 30px;
+            }
+        }
+  
+  
+        @media only screen and (max-width: 460px)
+        {
+            /* .block1,.block2
+            {
+              display: none;
+            } */
+            .bookshelf
+            {
+                font-size: 13px !important;
+            }
+            .logosizehn
+            {
+                height: 30px;
+                width: 30px;
+            }
+            .block3
+            {
+                font-family: myFont;
+              background-color: yellow;
+              height: 250px;
+              width: 100%;
+              font-size: 10px;
+            }
+            .griddef
+            {
+              grid-template-columns: 0.3fr 1.2fr 1.2fr 1.2fr 0.3fr;
+              grid-template-rows: 2.6fr 1.4fr 1.4fr 1.4fr 1.5fr ;
+              height: 250px;
+              gap: 0.25rem /* 4px */;
+            }
+        }
+  
+        @media only screen and (max-width: 360px)
+        {
+            .bookshelf
+            {
+                font-size: 10px !important;
+            }
+            /* .block1,.block2
+            {
+              display: none;
+            } */
+
+            .logosizehn
+            {
+                height: 20px;
+                width: 20px;
+            }
+
+            .block3
+            {
+                /* font-family: myFont; */
+            
+              background-color: yellow;
+              height: 200px;
+              width: 100%;
+              font-size: smaller;
+            }
+            .griddef
+            {
+              grid-template-columns: 0.3fr 1.2fr 1.2fr 1.2fr 0.3fr;
+              grid-template-rows: 2fr 1fr 1fr 1fr 1.5fr ;
+              height: 200px;
+              gap: 0.25rem /* 4px */;
+            }
+        }
+  
+        /* .block2,.block3
+        {
+          display: none;
+        } */
+  
+        
+        .backgroundwithimg
+        {
+          background-color: rgb(255, 230, 23)
+        }
+  
+        #FIC:hover
+        {
+            /* text-emphasis: circle; */
+            font-weight:900;
+            padding-top: 10%;
+            /* font-size: larger; */
+            text-decoration-line: underline;
+            text-decoration-thickness: 2px;
+            text-decoration-style: wavy;
+            text-decoration-color: #B185A7;
+            text-underline-offset: 2px;
+            animation: bounce 1s infinite;
+        }
+        #NON-FIC:hover
+        {
+            /* text-emphasis: circle; */
+            font-weight:900;
+            padding-top: 10%;
+            /* font-size: larger; */
+            text-decoration-line: underline;
+            text-decoration-thickness: 2px;
+            text-decoration-style: wavy;
+            text-decoration-color: #49416D;
+            text-underline-offset: 2px;
+            animation: bounce 1s infinite;
+        }
+        #YA:hover
+        {
+            /* text-emphasis: circle; */
+            font-weight:900;
+            padding-top: 10%;
+            /* font-size: larger; */
+            text-decoration-line: underline;
+            text-decoration-thickness: 2px;
+            text-decoration-style: wavy;
+            text-decoration-color: #E2D6AA;
+            text-underline-offset: 2px;
+            animation: bounce 1s infinite;
+        }
+        #K:hover
+        {
+            /* text-emphasis: circle; */
+            font-weight:900;
+            padding-top: 10%;
+            /* font-size: larger; */
+            text-decoration-line: underline;
+            text-decoration-thickness: 2px;
+            text-decoration-style: wavy;
+            text-decoration-color: #9FBADD;
+            text-underline-offset: 2px;
+            animation: bounce 1s infinite;
+        }
+        #BM:hover
+        {
+            /* text-emphasis: circle; */
+            font-weight:900;
+            padding-top: 7%;
+            /* font-size: larger; */
+            text-decoration-line: underline;
+            text-decoration-thickness: 2px;
+            text-decoration-style: wavy;
+            text-decoration-color: #6E9075;
+            text-underline-offset: 2px;
+            animation: bounce 1s infinite;
+        }
+  
+        #S:hover
+        {
+            /* text-emphasis: circle; */
+            font-weight:900;
+            padding-top: 10%;
+            /* font-size: larger; */
+            text-decoration-line: underline;
+            text-decoration-thickness: 2px;
+            text-decoration-style: wavy;
+            text-decoration-color: #C8553D;
+            text-underline-offset: 2px;
+            animation: bounce 1s infinite;
+        }
+  
+        #SG:hover
+        {
+            /* text-emphasis: circle; */
+            font-weight:900;
+            padding-top: 10%;
+            /* font-size: larger; */
+            text-decoration-line: underline;
+            text-decoration-thickness: 2px;
+            text-decoration-style: wavy;
+            text-decoration-color: #C8553D;
+            text-underline-offset: 2px;
+            animation: bounce 1s infinite;
+        }
+  
+        #TG:hover
+        {
+            /* text-emphasis: circle; */
+            font-weight:900;
+            padding-top: 7%;
+            /* font-size: larger; */
+            text-decoration-line: underline;
+            text-decoration-thickness: 2px;
+            text-decoration-style: wavy;
+            text-decoration-color: #1D5370;
+            text-underline-offset: 2px;
+            animation: bounce 1s infinite;
+        }
+  
+      </style>
+
+    <script src="bestseller.js"></script>
+    <script src="genre1.js"></script>
+    <script src="new.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.4.1/flowbite.min.js"></script>
+    <script src="adv.js"></script>
+    
+</body>
+</html>

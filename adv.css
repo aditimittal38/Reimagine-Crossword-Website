@@ -1,0 +1,148 @@
+@font-face {
+    font-family: myFont;
+    src: url(Advert-Italic.ttff);
+}
+
+@font-face {
+    font-family: subFont;
+    src: url(Hidden\ meanings.ttf);
+}
+
+/* To prevemt text select throughout the webpage */
+* {
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.adv_container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #f0f0f0;
+}
+
+.adv_left-content, .adv-slideshow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    
+}
+
+.adv_left-content {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.adv_left-content h2{
+    font-size: 2vw;
+    font-family: myFont;
+}
+.adv_left-content p{
+    font-size: 1.5vw;
+    font-family: subFont;
+
+}
+
+.exciting_offers{
+    height: 13vh;
+    max-height: 110px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+.adv-slideshow-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.adv-slideshow {
+    display: flex;
+}
+
+.adv_slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.adv_slide.active {
+    display: block;
+}
+
+
+.adv_prev, .adv_next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    /* z-index: 1000; */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.adv_prev:hover, .adv_next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.adv_prev:focus, .adv_next:focus {
+    outline: none;
+}
+
+.adv_prev:active, .adv_next:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
+.adv_prev {
+    left: 10px;
+}
+
+.adv_next {
+    right: 10px;
+}
+
+
+@media screen and (max-width: 1400px) and (orientation: portrait) {
+    .adv_container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .adv_left-content {
+        padding: 20px;
+    }
+
+    .exciting_offers {
+        height: 8vh;
+    }
+
+    .adv_slide {
+        max-width: 100vh;
+        max-height: 70vh;
+    }
+    .adv_left-content h2{
+        font-size: 3vw;
+    }
+    .adv_left-content p{
+        font-size: 2.5vw;
+
+    }
+}

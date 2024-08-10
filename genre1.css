@@ -1,0 +1,351 @@
+@font-face {
+    font-family: myFont;
+    src: url(Advert-Italic.ttff);
+}
+
+@font-face {
+    font-family: subFont;
+    src: url(Hidden\ meanings.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffee80;
+    justify-content: space-evenly;
+    /* padding-top: 2%; */
+}
+#container1{
+    padding-top: 3%;
+    background-color: #B185A7;
+    padding-bottom: 3%;
+}
+#container2{
+    padding-top: 3%;
+    background-color: #5e548a;
+    padding-bottom: 3%;
+}
+#container3{
+    padding-top: 3%;
+    background-color: #9FBADD;
+    padding-bottom: 3%;
+}
+#container4{
+    padding-top: 3%;
+    background-color: #E2D6AA;
+    padding-bottom: 3%;
+}
+#container5{
+    padding-top: 3%;
+    background-color: #6E9075;
+    padding-bottom: 3%;
+}
+#container6{
+    padding-top: 3%;
+    background-color: #C8553D;
+    padding-bottom: 3%;
+}
+#container7{
+    padding-top: 3%;
+    background-color: #1D5370;
+    padding-bottom: 3%;
+}
+h3{
+    font-family: myFont;
+    font-size: 270%;
+}
+.buttons{
+    padding-top: 1%;
+}
+.btn1{
+    font-family: subFont;
+    font-weight: 300;
+    font-size: 170%;
+    border: none;
+    outline: none;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: #B185A7;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: #f2d5ef;
+}
+.btn2{
+    font-family: subFont;
+    font-weight: 300;
+    font-size: 170%;
+    border: none;
+    outline: none;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: #5e548a;
+    cursor: pointer;
+}
+.btn2:hover{
+    color: #cac4e5;
+}
+.btn3{
+    font-family: subFont;
+    font-weight: 300;
+    font-size: 170%;
+    border: none;
+    outline: none;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: #9FBADD;
+    cursor: pointer;
+}
+.btn3:hover{
+    color: #e4ebf2;
+}
+.btn4{
+    font-family: subFont;
+    font-weight: 300;
+    font-size: 170%;
+    border: none;
+    outline: none;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: #E2D6AA;
+    cursor: pointer;
+}
+.btn4:hover{
+    color: #6c5c48;
+}
+.btn5{
+    font-family: subFont;
+    font-weight: 300;
+    font-size: 170%;
+    border: none;
+    outline: none;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: #6E9075;
+    cursor: pointer;
+}
+.btn5:hover{
+    color: #b8ddbf;
+}
+.btn6{
+    font-family: subFont;
+    font-weight: 300;
+    font-size: 170%;
+    border: none;
+    outline: none;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: #C8553D;
+    cursor: pointer;
+}
+.btn6:hover{
+    color: #e9c0b7;
+}
+.btn7{
+    font-family: subFont;
+    font-weight: 300;
+    font-size: 170%;
+    border: none;
+    outline: none;
+    margin-bottom: 1%;
+    padding: 1%;
+    background-color: #1D5370;
+    cursor: pointer;
+}
+.btn7:hover{
+    color: #9bc7de;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: center;
+    column-gap: 0.5%;
+}
+.box{
+    background-color:rgb(243, 243, 243);
+    color: black;
+    width: 260px;
+    height: 450px;
+    /* width: 15%; */
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 1%;
+    display: none;
+    border-radius: 5%;
+    transition: transform .45s ease;
+    box-shadow: 5px 5px 2px #69666e;
+}
+.box:hover{
+    transform: scale(1.15);
+}
+.img{
+    max-height: 65%;
+    max-width: 60%;
+    padding-bottom: 5%;
+}
+.book-name{
+    font-size:120%;
+    padding-bottom: 1.5%;
+}
+.prize{
+    padding-bottom: 1.5%;
+}
+.cart{
+    background-color: white;
+    padding: 3%;
+    border-radius: 13%;
+}
+.cart:hover{
+    background-color: black;
+    color: white;
+}
+.author{
+    font-size: large;
+    padding-bottom: 2%;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+@media only screen and (max-width:500px){
+
+    h3{
+        font-size:180%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn1{
+        font-size: 120%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn2{
+        font-size: 120%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn3{
+        font-size: 120%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn4{
+        font-size: 120%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn5{
+        font-size: 120%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn6{
+        font-size: 120%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn7{
+        font-size: 120%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .box{
+        width: 165px;
+        height: 300px;
+        box-shadow: 4px 4px 1.5px #69666e;
+    }
+    .img{
+        padding-top: 5%;
+        max-width: 60%;
+        max-height: 65%;
+    }
+    .book-name{
+        font-size: 12px;
+        padding-bottom: 1%;
+    }
+    .author{
+        font-size: 11px;
+        padding-bottom: 1%;
+    }
+    .prize{
+        font-size: 11px;
+        padding-bottom: 0%;
+    }
+    .cart{
+        font-size: 9px;
+        border: 1px solid black;
+        padding: 3%;
+    }
+}
+@media only screen and (max-width:1000px) and (min-width:501px){
+    h3{
+        font-size:250%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn1{
+        font-size: 100%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn2{
+        font-size: 100%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn3{
+        font-size: 100%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn4{
+        font-size: 100%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn5{
+        font-size: 100%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn6{
+        font-size: 100%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .btn7{
+        font-size: 100%;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .box{
+        width: 200px;
+        height: 350px;
+        box-shadow: 4px 4px 2px #69666e;
+    }
+    .img{
+        padding-top: 3%;
+        max-width: 70%;
+        max-height: 60%;
+        /* padding-bottom: 2%; */
+    }
+    .book-name{
+        /* padding-top: 2%; */
+        font-size: 15px;
+        padding-bottom: 2%;
+    }
+    .author{
+        font-size: 14px;
+        padding-bottom: 2%;
+    }
+    .prize{
+        font-size: 14px;
+        padding-bottom: 1.5%;
+    }
+    .cart{
+        font-size: 12px;
+        border: 1.5px solid black;
+        padding: 3%;
+    }
+}

@@ -1,0 +1,122 @@
+@font-face {
+    font-family: myFont;
+    src: url(Advert-Italic.ttff);
+}
+
+@font-face {
+    font-family: subFont;
+    src: url(Hidden\ meanings.ttf);
+}
+.footer{
+    position: sticky;
+    left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 50%;
+   background-color: #ffe300;
+   color: rgb(0, 0, 0);
+}
+.content{
+    padding: 35px;
+}
+p{
+    font-size: 15px;
+    font-family: subFont;
+}
+hr {
+    border: 2px solid black;
+}
+.stuborn{
+    padding-top: 1%;
+    height: 86px;
+    object-fit: cover;
+    paddint-bottom: 1%
+}
+.give{
+    display: flex;
+    align-items: center;
+}
+.emailid{
+    padding: 10px;
+    width: 300px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid black;
+}
+.press{
+    /* padding: 8px; */
+    height: 40px;
+    width: 45px;
+    border-left: none;
+    border: 2px solid black;
+    border-left: none;
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: 500;
+}
+
+.press:hover {
+    background-color: rgb(198, 196, 196);
+}
+
+.facebook {
+    height: 50px;
+    width: 55px;
+}
+h4 {
+    font-size: 1.2rem;
+    font-family: myFont;
+}
+@media only screen and (max-width:500px){
+    h4{
+        font-size: 1rem;
+    }
+    .stuborn{
+        padding-top: 1%;
+        height: 55px;
+        object-fit: cover;
+        width: 150px;
+        margin: 2%;
+    }
+    p{
+        font-size: small;
+    }
+    hr {
+        border: 1px solid black;
+    }
+    .emailid{
+        padding: 6px;
+        width: 200px;
+        height: 30px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: 2px solid black;
+    }
+    .press{
+        /* padding: 8px; */
+        height: 30px;
+        width: 35px;
+        border-left: none;
+        border: 2px solid black;
+        border-left: none;
+        background-color: white;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        font-weight: 500;
+        font-size: smaller;
+    }
+    
+    .press:hover {
+        background-color: rgb(198, 196, 196);
+    }
+    
+    .facebook {
+        height: 30px;
+        width: 35px;
+    }
+    .content{
+        padding: 20px;
+    }
+}

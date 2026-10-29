@@ -1,11 +1,11 @@
 @font-face {
     font-family: myFont;
-    src: url(Advert-Italic.ttff);
+    src: url("../assets/fonts/Advert-Italic.ttf");
 }
 
 @font-face {
     font-family: subFont;
-    src: url(Hidden\ meanings.ttf);
+    src: url("../assets/fonts/rainyhearts.ttf");
 }
 .footer{
     position: sticky;

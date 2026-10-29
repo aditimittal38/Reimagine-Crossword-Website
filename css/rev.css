@@ -1,11 +1,11 @@
 @font-face {
     font-family: myFont;
-    src: url(Advert-Italic.ttff);
+    src: url("../assets/fonts/Advert-Italic.ttf");
 }
 
 @font-face {
     font-family: subFont;
-    src: url(Hidden\ meanings.ttf);
+    src: url("../assets/fonts/rainyhearts.ttf");
 }
 body, html {
     margin: 0;
@@ -62,7 +62,7 @@ body, html {
     overflow: hidden;
 }
 .rev-marquee{
-    background-image: url("revBG.svg");
+    background-image: url("../assets/backgrounds/revBG.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -130,7 +130,7 @@ body, html {
 }
 @media screen and (max-width: 480px) and (orientation: portrait) {
      .rev-marquee{
-        background-image: url("revBG3.svg");
+        background-image: url("../assets/backgrounds/revBG3.svg");
     }
     
 }

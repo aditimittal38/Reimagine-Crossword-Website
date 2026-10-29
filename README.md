@@ -41,7 +41,3 @@ assets/          Images, icons, fonts, and other media grouped by type
 css/             Page stylesheets
 js/              Navigation, filtering, and carousel scripts
 ```
-
-## Notes
-
-This is a front-end mockup; account, wishlist, and cart panels do not connect to a backend or process purchases. The catalog references `assets/books/book42.webp`, but that image is not included in the repository.
